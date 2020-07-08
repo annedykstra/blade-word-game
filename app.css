@@ -1,0 +1,76 @@
+div .wrapper {
+    background-color: lightskyblue;
+    border: 4px solid rgb(72, 72, 75);
+    border-radius: 20px;
+    width: 312px;
+    height: 560px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(72, 72, 75);
+    font-family: 'Loved by the King', cursive;
+}
+
+p {
+    letter-spacing: 0.15em;
+    font-size: 1.em;
+    /* font-weight: bold; */
+    font-family: 'Loved by the King', cursive;
+}
+
+#solution {
+    /* color: rgb(207, 133, 36); */
+    letter-spacing: 0.15em;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Loved by the King', cursive;
+}
+
+#misplaced-letters {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+#button-word-generator {
+    margin-top: 25px;
+}
+
+img {
+    width: 312px;
+}
+
+button {
+    border-radius: 3px;
+    border-color: transparent;
+    background-color: rgb(72, 72, 75);
+    /* text-transform: uppercase; */
+    font-family: 'Loved by the King', cursive;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    font-size: 12px;
+    /* font-weight: bold; */
+    color: lightskyblue;    
+}
+
+input[type=text] {
+    margin-top: 15px;
+    padding: 0;
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+    position: relative;
+    left: 0;
+    outline: none;
+    border: 2px solid rgb(72, 72, 75);
+    background-color: #fdfdfd;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Loved by the King', cursive;
+    caret-color: transparent; /* disable blinking cursor */ 
+  }

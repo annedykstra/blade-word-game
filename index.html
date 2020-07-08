@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B L A D E</title>
+    <link rel="stylesheet" href="app.css">
+    <link href="https://fonts.googleapis.com/css2?family=Loved+by+the+King&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <div>
+        <div class="wrapper">
+    
+            <div><button id="button-word-generator">Nieuw woord</button></div>
+        
+            <div>
+                <p id="show-attempts">Nog <span id="attempts"></span>over...</p>
+                <p id="random-message"></p>
+            </div>
+
+            <div id="blade">
+                <img id="blade-image" src="imgs/blade-frame-8.png" alt="blade-image"/>
+            </div>
+            
+            <div><p>Raad een woord van <span id="letter-counter">?</span> letters</p></div>
+
+            <div id="solution"></div>
+        
+            <div>
+                <input type="text" id="input-text" value="" minlength="1" maxlength="1" size="1" >
+                <button id="button-choose-letter">Kies letter</button>
+            </div>
+
+            <div><p id="misplaced-letters"></p></div>
+        </div>
+    </div>
+
+<script type="text/javascript" src="app.js"></script>
+
+</body>
+</html>
